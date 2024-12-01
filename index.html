@@ -13,7 +13,7 @@
 <body>
     
     <div class="d-flex flex-column justify-content-center align-items-center vh-100">
-        <h1>Circle Color Change </h1>
+        <h4 class="p-2">Circle Color Change </h4>
         <div class="square border border-black">
             <div class="circle border border-secondary"></div>
         </div>
@@ -22,6 +22,10 @@
             <button type="button" class="btn btn-success m-2">Green</button>
             <button type="button" class="btn btn-primary m-2">Blue</button>
         </div>
+        <div class="input-group m-3">
+            <input type="text" class="form-control" id="ColorInput" placeholder="Enter color" aria-describedby="button-addon2" onchange="changeCircleColor()">
+            <button class="btn btn-secondary submitColor" type="button" id="button-addon2">Button</button>
+          </div>
     </div>
     
     <!-- Bootstrap -->

@@ -12,4 +12,6 @@
   margin: 20px;
 }
 
-
+.input-group{
+  width: 200px !important;
+}
